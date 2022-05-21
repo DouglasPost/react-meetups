@@ -28,8 +28,9 @@ function AllMeetupsPage() {
 
   useEffect(() => {
     setIsLoading(true);
+    // put database fetch link here
     fetch(
-      "https://react-getting-started-e05c8-default-rtdb.firebaseio.com/meetups.json"
+      ""
     )
       .then((response) => {
         return response.json();

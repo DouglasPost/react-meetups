@@ -3,7 +3,6 @@ import { useRef } from "react";
 import Card from "../ui/Card";
 import classes from "./NewMeetupForm.module.css";
 
-// Firebase url: https://react-getting-started-e05c8-default-rtdb.firebaseio.com/
 function NewMeetupForm(props) {
   const titleInputRef = useRef();
   const imageInputRef = useRef();
